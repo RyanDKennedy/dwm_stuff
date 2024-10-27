@@ -36,6 +36,7 @@ static const Rule rules[] = {
         {"dolphin",  NULL, NULL, 0, 1, -1},
         {"gnome-calculator",  NULL, NULL, 0, 1, -1},
 	{NULL, "Places", NULL, 0, 1, -1}, // this is the history menu on librewolf and firefox
+	{NULL, "Devtools", NULL, 0, 1, -1}, // menu for firefox developer edition
 };
 
 /* layout(s) */
