@@ -8,7 +8,7 @@ static const Block blocks[] = {
 	{"", "date '+%A - %B %d - %H:%M'",					5,		0},
 #ifdef RY_IS_ON_LAPTOP
 	{"Battery:", "/opt/dwm_stuff/scripts/battery_percentage.sh",            30,             0},
-#undef
+#endif
 };
 
 //sets delimiter between status commands. NULL character ('\0') means no delimiter.
